@@ -14,3 +14,19 @@ if(player>pc){
 
 /*MAIL*/
 
+let mail=document.getElementById('mail').value;
+const arrayUtenti=['federicorosso97@gmail.com','mariorossi89@gmail.com','estertarasco06@gmail.com'];
+let utenteUno='federicorosso97@gmail.com';
+let utenteDue='mariorossi89@gmail.com';
+let utenteTre='estertarasco06@gmail.com';
+console.log(arrayUtenti);
+let button=document.querySelector('button')
+button.addEventListener('click',function(){
+    if(mail==utenteUno){
+        console.log('Benvenuto')
+       }else{
+           console.log('Accesso negato')
+       }
+    }
+)
+
