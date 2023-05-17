@@ -8,4 +8,9 @@ if(player>pc){
     console.log('HAI VINTOOO!')
 }else if(pc>player){
     console.log('HAI PERSO! :(')
+}else{
+    console.log('PAREGGIO!')
 }
+
+/*MAIL*/
+
